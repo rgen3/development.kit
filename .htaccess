@@ -1,0 +1,6 @@
+RewriteEngine on
+
+RewriteCond %{REQUEST_URI} !-f
+RewriteRule ^(.*)$ index.php?q=$1 [L,QSA]
+AddDefaultCharset utf-8
+AddType 'text/html; charset=utf-8' .html .htm .shtml

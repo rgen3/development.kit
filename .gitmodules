@@ -1,0 +1,3 @@
+[submodule "core/modules/scssphp"]
+	path = core/modules/scssphp
+	url = https://github.com/leafo/scssphp.git
